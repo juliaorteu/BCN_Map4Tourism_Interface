@@ -1,3 +1,4 @@
+folium
 altair==5.3.0
 anyio==4.3.0
 appnope==0.1.4
@@ -35,7 +36,6 @@ duckdb==0.10.1
 executing==2.0.1
 fastjsonschema==2.19.1
 Flask==3.0.3
-folium==0.16.0
 fonttools==4.50.0
 fqdn==1.5.1
 geographiclib==2.0
