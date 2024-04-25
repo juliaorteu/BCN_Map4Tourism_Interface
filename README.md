@@ -1,4 +1,4 @@
-<img src="data_preparation_pipeline/images/logo.png" alt="BCN Map4Tourism Logo" width="150">
+<img src="images/logo.png" alt="BCN Map4Tourism Logo" width="150">
 
 ## BCN Map4Tourism Application
 To run the application, navigate to the directory where the `app.py` file is located  and execute the following command in your terminal:
