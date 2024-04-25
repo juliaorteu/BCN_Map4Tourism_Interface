@@ -68,7 +68,7 @@ show_restaurants_attractions = st.checkbox("Show Restaurants & Attractions")
 m = folium.Map(location=[41.3879, 2.1699], zoom_start=12)
 
 if show_restaurants_attractions:
-    min_rating = st.slider("🧹 Filter by Minimum Rating", min_value=0, max_value=10, value=5)
+    min_rating = st.slider("🧹 Filter by Minimum Rating", min_value=0, max_value=5, value=4)
     filtered_locations = filtered_locations.filter(filtered_locations['avg_rating'] >= min_rating)
 
     for row in filtered_locations.collect():
