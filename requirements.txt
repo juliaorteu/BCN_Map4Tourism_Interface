@@ -1,7 +1,6 @@
 folium
 streamlit_folium
-streamlit
-java
+treamlit==1.12.0
 dash==2.16.1
 deprecation==2.1.0
 duckdb==0.10.1
